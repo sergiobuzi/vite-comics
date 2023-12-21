@@ -12,7 +12,7 @@
                     {
                         text: "DC MERCHANDISE",
                         url: "#",
-                        img: '../assets/img/buy-comics-merchandise.png',
+                        img: '../assets/img/buy-comics-digital-comics.png',
                     },
                     {
                         text: "SUBSCRIPTION",
@@ -22,12 +22,12 @@
                     {
                         text: "COMIC SHOP LOCATOR",
                         url: "#",
-                        img: '../assets/img/buy-comics-shop-locator.png',
+                        img: '../assets/img/buy-comics-digital-comics.png',
                     },
                     {
                         text: "DC POWER VISA",
                         url: "#",
-                        img: '../assets/img/buy-dc-power-visa.png',
+                        img: '../assets/img/buy-comics-digital-comics.png',
                     }
                 ],
             }

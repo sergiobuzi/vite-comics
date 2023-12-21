@@ -67,7 +67,9 @@
         </a>
 
         <ul id="nav-items">
-            <li v-for="(link, i) in links" :key="i">{{ link.text }}</li>
+            <li v-for="(link, i) in links" :key="i">
+                <a href="#" :class="link.current ? 'active' : ''">{{ link.text }}</a>
+            </li>
         </ul>
     </nav>
 </template>
@@ -91,12 +93,25 @@ nav{
         gap: 25px;
         color: black;
         cursor: pointer;
+
+
+        a{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 62px;
+        }
+
+        a:hover{
+        color: $primary;
+        border-bottom: 5px solid $primary;
     }
 
-    li:hover,
-    li:active{
+    }
+
+
+    .active{
         color: $primary;
-        border-color: $primary;
+        border-bottom: 5px solid $primary;
     }
 }
 
