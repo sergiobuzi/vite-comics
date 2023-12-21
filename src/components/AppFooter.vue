@@ -56,9 +56,7 @@
         </div>
 
 
-        <div>
-        <img src="../assets/img/dc-logo-bg.png" alt="dc-logo" id="img-footer">
-        </div>
+        <div id="img-container"></div>
 
     </div>
 
@@ -99,6 +97,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
     ul{
         font-weight: 600;
@@ -126,20 +125,26 @@
  display: flex;
 }
 
+#img-container{
+    background-image: url(../assets/img/dc-logo-bg.png);
+    height: 100%;
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+
+
+// parte inferiore con i social
 
 #social-section{
     background-color: #313031;
-    height: 150px;
+    height: 110px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    z-index: 10;
 }
-
-
-// parte inferiore con i social
 
 #button{
     padding: 10px;
