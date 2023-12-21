@@ -83,7 +83,6 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 
     ul{
