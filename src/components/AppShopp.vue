@@ -7,27 +7,27 @@
                     {
                         text: "DIGITAL COMICS",
                         url: "#",
-                        img: '../assets/img/buy-comics-digital-comics.png',
+                        img: '../public/img/buy-comics-digital-comics.png',
                     },
                     {
                         text: "DC MERCHANDISE",
                         url: "#",
-                        img: '../assets/img/buy-comics-digital-comics.png',
+                        img: '../public/img/buy-comics-merchandise.png',
                     },
                     {
                         text: "SUBSCRIPTION",
                         url: "#",
-                        img: '../assets/img/buy-comics-digital-comics.png',
+                        img: '../public/img/buy-comics-subscriptions.png',
                     },
                     {
                         text: "COMIC SHOP LOCATOR",
                         url: "#",
-                        img: '../assets/img/buy-comics-digital-comics.png',
+                        img: '../public/img/buy-comics-shop-locator.png',
                     },
                     {
                         text: "DC POWER VISA",
                         url: "#",
-                        img: '../assets/img/buy-comics-digital-comics.png',
+                        img: '../public/img/buy-dc-power-visa.svg',
                     }
                 ],
             }
@@ -78,6 +78,6 @@
 .shop-img{
     color: white;
     width: 50px;
-    height: 75px;
+    height: 65px;
 }
 </style>
