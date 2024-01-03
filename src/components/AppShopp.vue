@@ -54,7 +54,7 @@
     background-color: $primary;
     color: white;
     width: 100%;
-    height: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
