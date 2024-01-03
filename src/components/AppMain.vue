@@ -1,6 +1,10 @@
 <script>
     export default{
         name:"AppMain",
+        props:{
+            slides: Array,
+        },
+        
         data() {
             return {
             
