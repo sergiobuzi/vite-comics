@@ -30,6 +30,8 @@
                     <div class="card-text">{{ item.series }}</div>
                 
                 </div>
+
+                <div id="load">LOAD MORE</div>
                 
             </div>
             
@@ -67,7 +69,7 @@ main{
         background-color: $primary;
         font-weight: 600;
         padding: 10px;
-        margin-top: -50px;
+        margin-top: -20px;
         margin-bottom: 50px;
         width: 170px;
 
@@ -77,7 +79,7 @@ main{
     #container{
         width: 70%;
         margin: auto;
-        min-height: 400px;
+        min-height: 700px;
 
         .row{
             width: 100%;
@@ -90,6 +92,7 @@ main{
                 width: calc(100% / 6 - 20px);
                 min-height: 180px;
                 margin: 10px;
+                cursor: pointer;
 
                 .img-thumb{
                     width: 100%;
@@ -99,6 +102,16 @@ main{
                 .card-text{
                     margin: 10px;
                 }
+                
+            }
+
+            #load{
+                background-color: $primary;
+                font-weight: 600;
+                padding: 10px;
+                margin-bottom: 20px;
+                width: 200px;
+                text-align: center;
                 
             }
         }
